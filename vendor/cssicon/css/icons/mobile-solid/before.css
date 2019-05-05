@@ -1,0 +1,11 @@
+.moon-solid.icon:before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 3px;
+  width: 8px;
+  height: 10px;
+  color: #fff;
+  background-color: currentColor;
+  border-radius: 5px 0 0 5px;
+}

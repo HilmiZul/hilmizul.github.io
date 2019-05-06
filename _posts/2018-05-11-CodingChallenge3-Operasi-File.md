@@ -1,6 +1,6 @@
 ---
 layout: videos
-title: "CodingChallenge 3: Operasi File"
+title: "Coding Challenge 3: Operasi File"
 categories: "video"
 yt_id: u2NrKZbgSEY
 link: https://www.youtube.com/watch?v=u2NrKZbgSEY

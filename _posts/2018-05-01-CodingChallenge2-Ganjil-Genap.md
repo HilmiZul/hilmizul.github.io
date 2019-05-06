@@ -1,6 +1,6 @@
 ---
 layout: videos
-title: "CodingChallenge 2: Ganjil Genap"
+title: "Coding Challenge 2: Ganjil Genap"
 categories: "video"
 yt_id: uIlld16tGYk
 link: https://www.youtube.com/watch?v=uIlld16tGYk

@@ -11,7 +11,7 @@ function setup() {
 function draw() {
   background(230);
   background(bg, 0, windowHeight - bg.height);
-
+  
   fill(100);
   noStroke();
   textFont("Fredoka One");

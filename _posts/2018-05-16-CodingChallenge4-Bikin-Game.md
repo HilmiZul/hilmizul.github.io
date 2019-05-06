@@ -1,6 +1,6 @@
 ---
 layout: videos
-title: "CodingChallenge 5: Bikin Game?"
+title: "Coding Challenge 5: Bikin Game?"
 categories: "video"
 yt_id: 1LxaBLma4kw
 link: https://www.youtube.com/watch?v=1LxaBLma4kw

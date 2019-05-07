@@ -1,9 +1,0 @@
-.tv.icon:after {
-  content: '';
-  position: absolute;
-  left: 4px;
-  bottom: -4px;
-  width: 7px;
-  height: 1px;
-  background-color: currentColor;
-}

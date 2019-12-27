@@ -1,5 +1,5 @@
 ---
 layout: videos
-title: Videos
+title: videos
 permalink: /videos
 ---

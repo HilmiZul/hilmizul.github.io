@@ -1,5 +1,5 @@
 ---
 layout: ebook
-title: Ebook
+title: e-book
 permalink: /ebook
 ---

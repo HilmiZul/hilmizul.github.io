@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">{% include header.html %}
+
+<body>{% include nav.html %}<section class="videos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center mt-5 mb-5">
+          <h1 data-aos="fade-down">PROJECTS.</h1>
+          <div class="summary pt-4 pb-4">
+            <p data-aos="fade-down">Projects and contributions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for project in site.categories.projects %}
+        <div class="col-lg-4 d-flex align-items-stretch mb-5">
+          <div class="card shadow" data-aos="fade-up"> <a href="{{project.github}}"> 
+            <img src="/assets/img/{{forloop.index}}.png" class="card-img-top grayscale">
+            </a>
+            <div class="card-body">
+              <div class="card-title"><a href="{{project.github}}">{{project.title}}</a></div>
+              <div class="text-muted">{{project.date | date: '%d %B %Y'}}</div>
+              <p>{{project.content}}</p>
+            </div>
+            <div class="card-footer"> 
+              <a href="{{project.github}}" class="btn btn-dark btn-lg"><i class="fa fa-github"></i></a> 
+              <a href="{{project.link}}" class="btn btn-dark btn-lg"><i class="fa fa-eye"></i> Preview</a> 
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-12 text-center"> 
+          <a href="https://github.com/hilmizul" target="__blank" class="btn btn-dark btn-lg">SEE MORE</a> 
+        </div>
+      </div>
+    </div>
+  </section>{% include js.html %}</body>
+
+</html>

@@ -229,7 +229,7 @@ a:hover {
 .about {
   width: 100%;
   height: 100%;
-  background: #fafafa url(../img/bg-about.png) no-repeat center center fixed;
+  background: #fafafa; /* url(../img/bg-about.png) no-repeat center center fixed;*/
   background-size: cover;
 }
 

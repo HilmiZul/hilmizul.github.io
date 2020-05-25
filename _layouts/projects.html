@@ -16,11 +16,10 @@
       <div class="row">
         {% for project in site.categories.projects %}
         <div class="col-lg-4 d-flex align-items-stretch mb-5">
-          <div class="card shadow" data-aos="fade-up"> <a href="{{project.github}}"> 
+          <div class="card shadow" data-aos="fade-up"> 
             <img src="/assets/img/{{project.date | date: '%d %B %Y'}}.png" class="card-img-top grayscale">
-            </a>
             <div class="card-body">
-              <div class="card-title"><a href="{{project.github}}">{{project.title}}</a></div>
+              <div class="card-title">{{project.title}}</div>
               <div class="text-muted">{{project.date | date: '%d %B %Y'}}</div>
               <p>{{project.content}}</p>
             </div>

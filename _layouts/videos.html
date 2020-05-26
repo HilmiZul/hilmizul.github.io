@@ -4,7 +4,7 @@
 <body>{% include nav.html %}<section class="lists">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center mt-5 mb-5">
+        <div class="col-lg-12 text-center mt-5 pb-5">
           <h1 data-aos="fade-down">VIDEOS.</h1>
           <div class="summary pt-4 pb-4">
             <p data-aos="fade-down">Random videos about programming.</p>
@@ -22,16 +22,17 @@
               <div class="text-muted">{{post.date | date: '%d %B %Y'}}</div>
               <p>{{post.content}}</p>
             </div>
-            <div class="card-footer"> <a href="{{post.url}}" class="btn btn-dark btn-lg"><i class="fa fa-play"></i>
+            <div class="card-footer"> <a href="{{post.url}}" class="btn btn-purple btn-lg btn-block"><i class="fa fa-play"></i>
                 PLAY</a> <a href="https://youtube.com/watch?v={{post.video_id}}" target="__blank"
-                class="btn btn-dark btn-lg"><i class="fa fa-video-camera"></i> ON YOUTUBE</a> </div>
+                class="btn btn-red btn-lg btn-block"><i class="fa fa-video-camera"></i> ON YOUTUBE</a> </div>
           </div>
         </div>{% endfor %}</div>
       <div class="row mb-5">
         <div class="col-lg-12 text-center"> <a href="https://youtube.com/hilmizul" target="__blank"
-            class="btn btn-dark btn-lg">MORE VIDEOS</a> </div>
+            class="btn btn-red btn-lg btn-more">MORE VIDEOS ON YOUTUBE</a> </div>
       </div>
     </div>
-  </section>{% include js.html %}</body>
+  </section>{% include js.html %}
+</body>
 
 </html>

@@ -4,7 +4,7 @@
 <body>{% include nav.html %}<section class="lists">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center mt-5 mb-5">
+        <div class="col-lg-12 text-center mt-5 pb-5">
           <h1 data-aos="fade-down">WORK.</h1>
           <div class="summary pt-4 pb-4">
             <p data-aos="fade-down">Projects and contributions.</p>
@@ -23,9 +23,9 @@
               <div class="text-muted">{{project.date | date: '%d %B %Y'}}</div>
               <p>{{project.content}}</p>
             </div>
-            <div class="card-footer"> 
-              <a href="{{project.github}}" class="btn btn-dark btn-lg"><i class="fa fa-github"></i> Code</a> 
-              <a href="{{project.link}}" class="btn btn-dark btn-lg" target="__blank"><i class="fa fa-eye"></i> Preview</a> 
+            <div class="card-footer text-center"> 
+              <a href="{{project.github}}" class="btn btn-blue btn-lg btn-block"><i class="fa fa-github"></i> Code</a> 
+              <a href="{{project.link}}" class="btn btn-green btn-lg btn-block" target="__blank"><i class="fa fa-eye"></i> Preview</a> 
             </div>
           </div>
         </div>
@@ -33,7 +33,8 @@
       </div>
       <div class="row mb-5">
         <div class="col-lg-12 text-center"> 
-          <a href="https://github.com/hilmizul" target="__blank" class="btn btn-dark btn-lg">SEE MORE</a> 
+          <a href="https://github.com/HilmiZul?tab=repositories" target="__blank" class="btn btn-purple btn-lg btn-more">GO TO MY REPOSITORIES 
+          <i class="fa fa-send"></i></a> 
         </div>
       </div>
     </div>

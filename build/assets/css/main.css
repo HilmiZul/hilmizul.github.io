@@ -119,14 +119,14 @@ a:hover {
 }
 
 .secondary {
-  color: rgba(233, 13, 50, 0.918);
+  color: #fff;
   /* font-weight: 700; */
   /* font-size: 50px; */
-  background-color: #fff
+  background-color: rgba(233, 13, 50, 0.500);
 }
 
 .secondary>a {
-  color: rgba(233, 13, 50, 0.918);
+  color: #fff;
   transition: .3s all ease-in-out
 }
 
@@ -145,8 +145,11 @@ a:hover {
   /* background: rgba(233, 13, 50); */
   background: #774A8F;
   font-family: 'Fredoka One', cursive;
-  box-shadow: 0 3px 3px #dadada;
+  box-shadow: 0 5px 0 #cacaca9f;
   transition: all .3s ease-in-out;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 /* .nav:hover {
@@ -164,8 +167,12 @@ a:hover {
 }
 
 .nav .nav-link {
-  font-size: calc(.65 * 3vh);
+  font-size: calc(.50 * 3vh);
   font-weight: 700
+}
+
+.nav .nav-link.disabled {
+  color: #cacaca;
 }
 
 .header {
@@ -181,9 +188,6 @@ a:hover {
 /* .header h1{font-size: 60px}*/
 
 .header .col-lg-4 {
-  margin-bottom: 90px;
-  border-right: 5px solid #fafafa;
-  margin-top: 170px;
   color: #fafafa
 }
 
@@ -195,6 +199,10 @@ a:hover {
   width: 150px;
   border: 7px solid rgba(127, 127, 127, .5);
   border-radius: 50%
+}
+
+.header .inner-header .line {
+  border-right: 5px solid #fafafa;
 }
 
 .transisi-biru {
@@ -253,11 +261,12 @@ a:hover {
 .lists {
   width: 100%;
   height: auto;
-  background: #fff;
+  background: transparent;
+  padding-top: 30px;
+  color: #525252;
 }
 
 .lists h1 {
-  color: #525252;
   font-family: 'Fredoka One'
 }
 
@@ -309,17 +318,19 @@ a:hover {
 .about {
   width: 100%;
   height: 100%;
-  background: #fff; /* url(../img/bg-about.png) no-repeat center center fixed;*/
+  background: transparent; /* url(../img/bg-about.png) no-repeat center center fixed;*/
   background-size: cover;
+  padding-top: 30px;
+  color: #525252;
 }
 
 .about h1 {
-  font-family: 'Fredoka One'
+  font-family: 'Fredoka One';
 }
 
 .about .summary {
   font-family: Lato;
-  font-size: 17px
+  font-size: 17px;
 }
 
 .about .foto {
@@ -359,9 +370,10 @@ a:hover {
 .videos {
   width: 100%;
   height: auto;
-  background: #fff;
+  background: transparent;
   font-family: 'Fredoka One';
   color: #525252;
+  padding-top: 30px;
 }
 
 

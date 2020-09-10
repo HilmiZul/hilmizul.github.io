@@ -1,6 +1,6 @@
 ---
 title: "p5.js Website"
-categories: projects
+categories: None
 github: "https://github.com/HilmiZul/p5.js-website"
 link: "http://p5js.org/"
 ---

@@ -4,4 +4,4 @@ categories: projects
 github: "#"
 link: "#"
 ---
-Sistem Informasi Jaringan Irigasi di Kota Tasikmalaya.
+This App made for managing Irrigation Network in Tasikmalaya City.

@@ -4,6 +4,6 @@ categories: projects
 github: "https://github.com/hilmiZul/eperpus"
 link: "#"
 ---
-[SUSPENDED]
 
+[END]
 e-Library. Made for Vocational High School.
